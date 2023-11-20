@@ -1,0 +1,34 @@
+.sidebar {
+  display: grid;
+  align-items: center;
+  border-right: 1px solid black;
+  width: 25%;
+  min-height: 95vh;
+  cursor: pointer;
+  margin-left: 1%;
+}
+h3 {
+  text-align: center;
+  margin-left: 10px;
+}
+
+.sideOption:hover {
+  color: #00acee;
+}
+button {
+  background-color: #00acee;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+.sideOption {
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 600px) {
+  h3 {
+    visibility: hidden;
+  }
+}
