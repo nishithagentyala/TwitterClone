@@ -2,7 +2,7 @@ import React from 'react'
 import SideBar from '../SideBar/SideBar'
 import Widget from '../Widgets/Widget'
 import Feed from './Feed'
-import './HomePage.css'
+import './Feed.css'
 
 const HomePage = () => {
   return (

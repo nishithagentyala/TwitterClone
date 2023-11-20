@@ -10,12 +10,12 @@ import ListAltIcon from '@mui/icons-material/ListAlt'
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined'
 import MoreHorizTwoToneIcon from '@mui/icons-material/MoreHorizTwoTone'
 import SideBarOption from './SideBarOption'
-
+import { Button } from '@mui/material'
 const SideBar = () => {
   return (
     <div className='sidebar'>
       <TwitterIcon className='twitter' />
-      <SideBarOption text='Home' Icon={HouseRoundedIcon} />
+      <SideBarOption active text='Home' Icon={HouseRoundedIcon} />
       <SideBarOption text='Explore' Icon={TagOutlinedIcon} />
       <SideBarOption text='Notifications' Icon={NotificationsOutlinedIcon} />
       <SideBarOption text='Messages' Icon={MailOutlineOutlinedIcon} />
@@ -23,7 +23,7 @@ const SideBar = () => {
       <SideBarOption text='Lists' Icon={ListAltIcon} />
       <SideBarOption text='Profile' Icon={AccountCircleOutlinedIcon} />
       <SideBarOption text='More' Icon={MoreHorizTwoToneIcon} />
-      <button>Tweet</button>
+      <Button id='btn'>Tweet</Button>
     </div>
   )
 }
