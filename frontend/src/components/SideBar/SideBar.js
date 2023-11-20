@@ -14,7 +14,7 @@ import SideBarOption from './SideBarOption'
 const SideBar = () => {
   return (
     <div className='sidebar'>
-      <TwitterIcon />
+      <TwitterIcon className='twitter' />
       <SideBarOption text='Home' Icon={HouseRoundedIcon} />
       <SideBarOption text='Explore' Icon={TagOutlinedIcon} />
       <SideBarOption text='Notifications' Icon={NotificationsOutlinedIcon} />

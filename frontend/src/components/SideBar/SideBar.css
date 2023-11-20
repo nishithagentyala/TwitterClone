@@ -2,10 +2,9 @@
   display: grid;
   align-items: center;
   border-right: 1px solid black;
-  width: 25%;
+  width: 20%;
   min-height: 95vh;
   cursor: pointer;
-  margin-left: 1%;
 }
 h3 {
   text-align: center;
@@ -14,6 +13,7 @@ h3 {
 
 .sideOption:hover {
   color: #00acee;
+  background-color: #c7ebfa;
 }
 button {
   background-color: #00acee;
@@ -26,9 +26,32 @@ button {
 .sideOption {
   display: flex;
   align-items: center;
+  padding-left: 1%;
 }
 @media only screen and (max-width: 600px) {
   h3 {
     visibility: hidden;
+  }
+  h3:hover {
+    visibility: hidden;
+  }
+  .sideOption:hover {
+    color: #00acee;
+    background-color: #c7ebfa;
+  }
+  .sidebar {
+    display: grid;
+    align-items: center;
+  }
+  .sideOption {
+    border-radius: 50%;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 20%;
+  }
+  .twitter {
+    padding-left: 20%;
   }
 }
