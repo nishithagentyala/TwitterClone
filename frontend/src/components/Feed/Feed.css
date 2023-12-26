@@ -1,0 +1,23 @@
+.HomePage {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feed {
+  min-width: fit-content;
+  overflow-y: scroll;
+  flex: 0.4;
+  text-align: center;
+}
+.feed::-webkit-scrollbar {
+  display: none;
+}
+.feed {
+  scrollbar-width: none;
+}
+.feed_home {
+  position: sticky;
+  background-color: var(--twitter-background);
+  z-index: 100;
+  top: 0;
+}
