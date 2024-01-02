@@ -1,23 +1,35 @@
-.HomePage {
-  display: flex;
-  justify-content: space-between;
-}
-
 .feed {
   min-width: fit-content;
   overflow-y: scroll;
-  flex: 0.4;
   text-align: center;
+  scrollbar-width: none;
+  flex: 0.5;
 }
 .feed::-webkit-scrollbar {
   display: none;
 }
-.feed {
-  scrollbar-width: none;
-}
+
 .feed_home {
   position: sticky;
   background-color: var(--twitter-background);
   z-index: 100;
   top: 0;
+}
+.twitterInput {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.twitterInput > input {
+  border: none;
+}
+
+#tweetbtn {
+  background-color: var(--twitter-color);
+  margin-left: auto;
+}
+#image {
+  border: none;
+  background-color: var(--twitter-background);
+  padding: 10px;
 }
