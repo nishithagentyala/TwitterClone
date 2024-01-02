@@ -1,9 +1,9 @@
 .feed {
   min-width: fit-content;
   overflow-y: scroll;
-  text-align: center;
   scrollbar-width: none;
   flex: 0.5;
+  margin-left: 10px;
 }
 .feed::-webkit-scrollbar {
   display: none;
@@ -15,9 +15,12 @@
   z-index: 100;
   top: 0;
 }
+.tweetBox {
+  border-bottom: 2px solid var(--twitter-background);
+  margin-bottom: 10px;
+}
 .twitterInput {
   display: flex;
-  justify-content: center;
   margin: 10px;
 }
 .twitterInput > input {
@@ -27,6 +30,7 @@
 #tweetbtn {
   background-color: var(--twitter-color);
   margin-left: auto;
+  margin: 10px;
 }
 #image {
   border: none;
