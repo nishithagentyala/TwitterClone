@@ -28,7 +28,9 @@ const Post = ({
               Nishu
               <span>
                 <MdVerifiedUser className='postBadge' />
-                @Nishitha
+                <span style={{ color: 'gray', fontSize: '15px' }}>
+                  @Nishitha
+                </span>
               </span>
             </h3>
           </div>

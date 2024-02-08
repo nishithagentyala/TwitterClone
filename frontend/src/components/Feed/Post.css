@@ -1,8 +1,22 @@
-.postBody {
-  margin-left: auto;
-}
-.postHeader {
-  display: flex;
-}
 .post {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--twitter-background);
+}
+.postAvatar {
+  margin-top: 12px;
+}
+.postBody {
+  margin-left: 10px;
+}
+.postFooter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: larger;
+  cursor: pointer;
+}
+.postBadge {
+  color: var(--twitter-color);
 }

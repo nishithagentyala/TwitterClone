@@ -17,23 +17,33 @@
 }
 .tweetBox {
   border-bottom: 2px solid var(--twitter-background);
-  margin-bottom: 10px;
 }
 .twitterInput {
   display: flex;
   margin: 10px;
 }
+.twitterInput input {
+  margin-left: 10px;
+}
 .twitterInput > input {
   border: none;
 }
-
+.tweet {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
 #tweetbtn {
   background-color: var(--twitter-color);
-  margin-left: auto;
-  margin: 10px;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
 }
 #image {
   border: none;
   background-color: var(--twitter-background);
   padding: 10px;
+  width: 300px;
 }
